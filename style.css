@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
 /* GLOBAL */
+*{
+  margin: 0;
+}
+
 html, body{
   font-family: 'Raleway', helvetica, sans-serif;
-  margin: 0;
 }
 
 .spacing{
