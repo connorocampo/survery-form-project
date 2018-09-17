@@ -18,6 +18,10 @@ html, body{
   padding-right: 10px;
 }
 
+#comments-label{
+  padding-bottom: 7px;
+}
+
 .rightTab{
   width: 45%;
   display: inline-block;
