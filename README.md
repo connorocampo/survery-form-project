@@ -8,4 +8,4 @@ You can see complete project rules [here](https://codepen.io/connorocampo/pen/Ee
 
 You can visit project in CodePen [here](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-survey-form/).
 
-You can view it as a GitHub page here.
+You can view it as a GitHub page [here](https://connorocampo.github.io/survery-form-project/).
