@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+/* GLOBAL */
+html, body{
+  font-family: 'Raleway', helvetica, sans-serif;
+}
+
+.spacing{
+  padding: 15px;
+}
+
+.label{
+  display: inline-block;
+  text-align: right;
+  width: 50%;
+  vertical-align: top;
+  padding-right: 10px;
+}
+
+.rightTab{
+  width: 45%;
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.input{
+  width: 65%;
+}
+
+/* LOGO HEADER & BACKGROUND */
+#logo-header{
+  background-color: #FFBF0D; 
+  height: 3em;
+}
+
+#logo{
+  padding-top: 25px;
+  text-align: center;
+}
+
+/* OUTER FORM */
+#outer-form{
+background-color: #FFBF0D;
+padding-top: 40px;
+padding-bottom: 10px;  
+}  
+
+/* SURVERY FORM */
+#survey-form{
+  background-color: #FFFDEC;
+  margin: 0 auto;
+  width: 80%;
+  border-radius: 5px;
+  padding: 25px 0;
+}
+
+#title, #description{
+  margin: auto;
+  text-align: center;
+  width: 800px;
+  padding-top: 20px;
+}
+
+#description{
+  padding-bottom: 15px;
+}
+
+.item-space{
+  padding: 3px;
+}
+
+/* ADDITIONAL COMMENTS SECTION */
+#submit{
+  background-color: #1F9FCC;
+  color: white;
+  height: 40px;
+  width: 100px;
+  border: 0px solid;
+  border-radius: 5px;
+}
+
+#submit:hover{
+  cursor: pointer;
+}
+
+.comments-spacing{
+  padding: 5px;
+}
+
+/* FOOTER */
+footer{ 
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: 1F9FCC;
+}
+
+@media screen and (max-width: 1100px) {
+  #survey-form{
+    width: 85%;
+  }
+  
+  #title, #description {
+    width: 90%;
+  }
+  
+  .label{
+    text-align: left;
+    width: 90%;
+    padding-left: 40px;
+  }
+  
+  .rightTab{
+    width: 100%;
+    padding-left: 40px;
+  }
+  
+  .input{
+    width: 80%;
+  }
+  
+  textarea{
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  #survey-form{
+    width: 85%;
+  }
+  
+   #title, #description {
+    width: 90%;
+  }
+  
+  .label{
+    text-align: left;
+    width: 90%;
+    padding-left: 40px;
+  }
+  
+  .rightTab{
+    width: 100%;
+    padding-left: 40px;
+  }
+  
+  .input{
+    width: 80%;
+  }
+  
+  textarea{
+    width: 80%;
+  }
+}
