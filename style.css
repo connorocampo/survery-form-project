@@ -5,16 +5,16 @@
   margin: 0;
 }
 
-html, body{
+html, body {
   font-family: 'Raleway', helvetica, sans-serif;
 
 }
 
-.spacing{
+.spacing {
   padding: 15px;
 }
 
-.label{
+.label {
   display: inline-block;
   text-align: right;
   width: 50%;
@@ -22,11 +22,11 @@ html, body{
   padding-right: 10px;
 }
 
-#comments-label{
+#comments-label {
   padding-bottom: 7px;
 }
 
-.rightTab{
+.rightTab {
   width: 45%;
   display: inline-block;
   text-align: left;
@@ -34,30 +34,30 @@ html, body{
   margin-left: 5px;
 }
 
-.input{
+.input {
   width: 65%;
 }
 
 /* LOGO HEADER & BACKGROUND */
-#logo-header{
+#logo-header {
   background-color: #FFBF0D;
   height: 3em;
 }
 
-#logo{
+#logo {
   padding-top: 25px;
   text-align: center;
 }
 
 /* OUTER FORM */
-#outer-form{
+#outer-form {
 background-color: #FFBF0D;
 padding-top: 40px;
 padding-bottom: 10px;
 }
 
 /* SURVERY FORM */
-#survey-form{
+#survey-form {
   background-color: #FFFDEC;
   margin: 0 auto;
   width: 80%;
@@ -65,23 +65,24 @@ padding-bottom: 10px;
   padding: 25px 0;
 }
 
-#title, #description{
+#title, #description {
   margin: auto;
   text-align: center;
   width: 800px;
   padding-top: 20px;
 }
 
-#description{
+#description {
   padding-bottom: 15px;
+  line-height: 30px;
 }
 
-.item-space{
+.item-space {
   padding: 3px;
 }
 
 /* ADDITIONAL COMMENTS SECTION */
-#submit{
+#submit {
   background-color: #1F9FCC;
   color: white;
   height: 40px;
@@ -90,20 +91,20 @@ padding-bottom: 10px;
   border-radius: 5px;
 }
 
-#submit:hover{
+#submit:hover {
   cursor: pointer;
 }
 
-.comments-spacing{
+.comments-spacing {
   padding: 5px;
 }
 
-#comments-label{
+#comments-label {
     margin-bottom: 8px !important;
 }
 
 /* FOOTER */
-footer{
+footer {
   text-align: center;
   margin-top: 10px;
   color: white;
@@ -115,7 +116,7 @@ a {
 }
 
 @media screen and (max-width: 1100px) {
-  #survey-form{
+  #survey-form {
     width: 85%;
   }
 
@@ -123,22 +124,22 @@ a {
     width: 90%;
   }
 
-  .label{
+  .label {
     text-align: left;
     width: 90%;
     padding-left: 40px;
   }
 
-  .rightTab{
+  .rightTab {
     width: 100%;
     padding-left: 40px;
   }
 
-  .input{
+  .input {
     width: 80%;
   }
 
-  textarea{
+  textarea {
     width: 80%;
   }
 }
@@ -152,22 +153,22 @@ a {
     width: 90%;
   }
 
-  .label{
+  .label {
     text-align: left;
     width: 90%;
     padding-left: 20px;
   }
 
-  .rightTab{
+  .rightTab {
     width: 100%;
     padding-left: 20px;
   }
 
-  .input{
+  .input {
     width: 80%;
   }
 
-  textarea{
+  textarea {
     width: 80%;
   }
 }
